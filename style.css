@@ -1,0 +1,329 @@
+.navbar-custom {
+    background-color: #56876D;
+}
+
+/* change the brand and text color */
+
+.navbar-custom .navbar-text {
+    color:#D8D8F6;
+}
+.navbar{
+    box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.2);
+}
+.navbar-custom .navbar-brand {
+    color: #330F0A !important;
+    font-family: 'Delius Swash Caps', cursive;
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link #active {
+    color: #E3E3E3 !important;
+    font-family: 'Trykker', serif;
+    font-weight: 600;
+    font-size: 24px ;
+    letter-spacing: 0.1rem;
+}
+.navbar-custom .navbar-nav .nav-link {
+    color: #D8D8F6;
+    font-family: 'Trykker', serif;
+    font-weight: 600;
+    font-size: 24px ;
+    letter-spacing: 0.1rem;
+}
+
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #330F0A ;
+}
+
+.intro{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     align-self: center;
+     text-align: center;
+     height: 100vh;
+      width: 100%;
+      flex-wrap: nowrap;
+      word-wrap: initial;
+
+}
+.intro div{
+    padding: 10px;
+}
+ .intro h1{
+    font-size: 6rem;
+    font-family: 'Montserrat', sans-serif;
+
+    /* color: #022A12; */
+}
+.intro h2{
+    font-size: 1.75rem;
+    font-family: 'Delius', cursive;
+    color: #055826;
+    font-weight: 600;
+}
+.intro h3{
+    font-size: 1rem;
+    font-family: 'Delius', cursive;
+    color: #055826;
+    font-weight: 200;
+}
+body {
+    /* background-color: #022A12 ; */
+    color: #055826;
+    height: 100%;
+    margin: 0;
+    line-height: 1.5;
+    /* overflow: hidden; */
+}
+.header{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+/* main{
+    padding: 4rem;
+    overflow: hidden;
+} */
+main h1{
+    margin-top: 30vh;
+    /* margin-left: 30vw; */
+    margin-bottom: 0;
+}
+main h2{
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-left: 30vw; */
+}
+.ani{
+    /* margin:0;
+    padding: 0; */
+
+    background: url(back7.png) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: movebg 5s linear infinite;
+    -webkit-animation:  movebg 5s linear infinite ;
+    }
+    @keyframes movebg {
+    0% {
+        background-position:30% 0% ;
+    }
+    100% {
+        background-position:50% 100% ;
+    }
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    height: 100vh;
+     width: 100%;
+     flex-wrap: nowrap;
+     word-wrap: initial;
+
+}
+.contact div{
+   padding: 10px;
+}
+.contact h1{
+   font-size: 4rem;
+   font-family: 'Montserrat', sans-serif;
+   margin-bottom: 0;
+}
+.a1{
+    font-size: 1.5rem important !important;
+    font-family: 'Delius', cursive;
+    color: #055826;
+    font-weight: 600;
+    margin-top: 0;
+ }
+.anic{
+    /* margin:0;
+    padding: 0; */
+
+    background: url(backc6.jpg) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: movebg 10s linear infinite;
+    -webkit-animation:  movebg 10s linear infinite ;
+    }
+    @keyframes movebg {
+    0% {
+        background-position:30% 0% ;
+    }
+    100% {
+        background-position:50% 100% ;
+    }
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-end;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    height:1.5vh;
+    width: 100%;
+    flex-wrap: nowrap;
+    word-wrap: normal;
+
+
+}
+.foot h3{
+
+    font-size: 1.75rem ;
+    font-weight: 400;
+    font-family: 'Trykker', serif;
+}
+div.foot h3 a:link, div.a1 a:link {
+    color: #04724d;
+    text-decoration: none;
+  }
+
+
+  div.foot h3 a:visited, div.a1 a:visited  {
+    color: #04724d ;
+    text-decoration: none;
+  }
+
+
+  div.foot h3 a:hover, div.a1 a:hover  {
+    color: #330F0A;
+    text-decoration: none;
+  }
+
+
+  div.foot h3 a:active, div.a1 a:active  {
+    color: #330F0A;
+    text-decoration: none;
+  }
+  
+ /* .fa {
+    padding: 0px;
+    font-size: 30px;
+   
+    text-align: center;
+    text-decoration: none;
+    margin:0;
+     border-radius: 70%; 
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #339069;
+    color: white;
+  }
+  
+  
+  
+  .fa-twitter {
+    background: #00AAA9;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #008688;
+    color: white;
+  }
+  
+  
+  
+  .fa-instagram {
+    background: #006541;
+    color: white;
+  }
+  */
+ 
+  
+.ref{
+    display: flex;
+}  
+.a1{
+    margin-bottom: 0;
+    padding: 0;
+}
+.a1{
+    margin-top: 0;
+    padding: 0;
+}
+
+.about{
+    display: inline-flex;
+    flex-direction: column;
+   justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    height: 100vh;
+     width: 100%;
+     flex-wrap: wrap;
+     word-wrap: initial;
+    
+}
+
+.photo{
+    display: inline-flex;
+    flex-direction: column;
+   justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    height: 80vh;
+     width: 100%;
+     flex-wrap: wrap;
+     word-wrap: initial;
+     margin-top: 30vh;
+    
+}
+
+.photo div{
+    margin: -75px;
+    padding: -75px;
+}
+
+.desc{
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+}
+.photo div:last-of-type{
+    margin-top: auto;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+   justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    height: 20vh;
+     width: 100%;
+
+     flex-wrap: wrap;
+     word-wrap: initial;
+     margin-top: 15vh;
+    
+    
+}
